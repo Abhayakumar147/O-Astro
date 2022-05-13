@@ -1,0 +1,26 @@
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color:#CDBE78;
+  border-width: 5px;
+  width: 5%;
+}
+body{
+  background-color: #B9F8D3;
+}
+h1{
+  color:#035397;
+}
+h2{
+  color:#5584AC;
+}
+button {
+  background-color: #066163;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}

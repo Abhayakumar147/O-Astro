@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<title>Registraction Form</title>
+<script defer src = "script.js"></script>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+<form class="Regn form" action="index.html" method="post">
+  <h1><b>
+      <center>SIGN UP FORM</center>
+    </b></h1>
+  <hr>
+  <center>
+    <table cellspacing="20">
+      <tr>
+        <td>
+          <h2><b>Name-</b></h2>
+        </td>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Email-</b></h2>
+        </td>
+        <td><input type="email"></td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Password-</b></h2>
+        </td>
+        <td><input type="password" id="pwd" name="pwd"></td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Mobile Number-</b></h2>
+        </td>
+        <td><select>
+            <option>+91</option>
+            <option>+44</option>
+            <option>+1</option>
+          </select>
+          </select><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Date of Birth-</b></h2>
+        </td>
+        <td><input type="date" id="birthday" name="birthday"></td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Gender-</b></h2>
+        </td>
+        <td><label for="male"><b>Male</b></label>
+          <input type="radio" name="gender" id="male" value="male" checked>
+          <label for="female"><b>Female</b></label>
+          <input type="radio" name="gender" id="female" value="female">
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2><b>Language-</b></h2>
+        </td>
+        <td><select>
+            <option>English</option>
+            <option>Spanish</option>
+            <option>Arabic</option>
+            <option>chinese</option>
+            <option>Russian</option>
+            <option>French</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="D:\Oretes Astrology\thankyou.html" button class="w3-button w3-round w3-pale-red w3-block" >Sign-up</button></a></td>
+        <td><button class="btn btn-primary" input type="reset">Reset</button></td>
+      </tr>
+    </table>
+  </center>
+</body>
+</form>
+
+</html>
